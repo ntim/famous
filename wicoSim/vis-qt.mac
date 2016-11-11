@@ -1,0 +1,19 @@
+# Open visualization.
+/vis/scene/create
+/vis/open OGLSQt
+
+# Apply settings.
+/control/execute ../vis-settings.mac
+
+
+/gps/angle/thetaMin 10.00 deg
+/gps/angle/thetaMax 10.00 deg
+/gps/angle/phiMin 90 deg
+/gps/angle/phiMax 90 deg
+/g4sipm/filter/geometry 1
+/g4sipm/filter/pde 1
+/g4sipm/digitize/hits 0
+/gps/nParticles 10000
+
+# Run.
+# /run/beamOn 1

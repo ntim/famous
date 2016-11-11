@@ -1,0 +1,28 @@
+# Open visualization.
+/vis/scene/create
+/vis/open OGLSQt
+
+# Apply settings.
+/control/execute ../vis-settings.mac
+
+/vis/scene/add/axes -.3 -.3 -0.1 0.6 m
+
+/vis/viewer/set/style surface
+
+# Run.
+# /run/beamOn 1
+
+# Ray fan with 375 nm
+/gps/energy/eMin 3.1 eV
+/gps/energy/eMax 3.1 eV
+/vis/viewer/set/viewpointThetaPhi -90 0
+#/gps/plane/shape rect
+#/gps/plane/pos 0 245 504.5848 mm
+#/gps/plane/a 0.01 mm
+#/gps/plane/b 250 mm
+#/gps/plane/b 1 mm
+/gps/nParticles 100
+/g4sipm/digitize/hits 0
+/g4sipm/digitize/trace 0
+/run/beamOn 1
+/vis/viewer/addCutawayPlane -1 0 0 mm 1 0 0

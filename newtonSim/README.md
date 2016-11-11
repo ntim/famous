@@ -1,0 +1,1 @@
+Simulation of a Bresser PN203 Newton telescope. Has been used in http://publications.rwth-aachen.de/record/461079.

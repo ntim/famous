@@ -1,0 +1,41 @@
+#
+# Verbosity
+/gps/verbose 0
+
+#
+# Polarization angle (negative values enable random polarization).
+/gps/polar -360 deg
+
+#
+# Particle energy range
+/gps/energy/eMin 3.5424049 eV # 350 nm
+/gps/energy/eMax 3.5424049 eV # 350 nm
+
+#
+# Particle source plane position.
+# /gps/plane/pos 0 0 1 mm
+
+#
+# The surface normal of the plane in which the primary particles will be created (default: 0 0 -1).
+# /gps/plane/surfaceNormal 0 0 -1
+
+#
+# Pitch of the rectangular plane.
+# /gps/plane/a 200 mm
+# /gps/plane/b 200 mm
+
+#
+# Angular distribution of the particle directions.
+/gps/angle/thetaMin 0 deg
+/gps/angle/thetaMax 0 deg
+/gps/angle/phiMin 0 deg
+/gps/angle/phiMax 0 deg
+
+#
+# Time range of particles.
+/gps/tMin 0 s
+/gps/tMax 1e4 ns 
+
+#
+# Number of particles.
+/gps/nParticles 1000

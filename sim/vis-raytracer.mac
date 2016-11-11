@@ -1,0 +1,30 @@
+/vis/open RayTracer
+/vis/viewer/set/viewpointThetaPhi -25 180 deg
+/vis/viewer/set/projection perspective
+/vis/viewer/set/background white
+/vis/rayTracer/column 1024
+/vis/rayTracer/row 1024
+/vis/viewer/zoom 1.75
+
+# Render first image
+/vis/viewer/refresh
+
+# Render second image
+/vis/geometry/set/visibility tubeLv 1 False
+/vis/geometry/set/visibility backPlaneLv 1 False
+/vis/geometry/set/visibility backTubeLv 1 False
+/vis/geometry/set/visibility backTubeBackPlaneLv 1 False
+/vis/viewer/refresh
+
+# Render third image
+/vis/viewer/zoom 0.625
+/vis/geometry/set/visibility tubeLv 1 False
+/vis/geometry/set/visibility backPlaneLv 1 False
+/vis/geometry/set/visibility backTubeLv 1 False
+/vis/geometry/set/visibility backTubeBackPlaneLv 1 False
+/vis/geometry/set/visibility motherLv 10 False
+/vis/viewer/refresh
+
+# Render front view
+/vis/viewer/set/viewpointThetaPhi 0 0 deg
+/vis/viewer/refresh

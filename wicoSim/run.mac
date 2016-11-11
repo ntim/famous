@@ -1,0 +1,13 @@
+# Verbosity.
+/control/verbose 0
+/run/verbose 0
+/tracking/verbose 0
+
+# Generate events.
+/gps/angle/thetaMin 0 deg
+/gps/angle/thetaMax 0 deg
+/gps/angle/phiMin 0 deg
+/gps/angle/phiMax 360 deg
+/gps/polar -360 deg
+/gps/nParticles 10000
+/run/beamOn 1

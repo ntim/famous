@@ -1,0 +1,1 @@
+Contains a particle source which fires photons simulated by the Offline framework by the Pierre Auger Collaboration. For further information please refer to https://arxiv.org/abs/0707.1652.

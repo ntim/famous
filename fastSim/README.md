@@ -1,0 +1,1 @@
+Detector concept using a single large Fresnel lens and a single large PMT for fluorescence light detection.
