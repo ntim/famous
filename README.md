@@ -4,8 +4,11 @@ Geant4 (https://github.com/Geant4/geant4) detector simulation of the SiPM fluore
 
 Further information can be found here: 
  * http://dx.doi.org/10.1016/j.nima.2015.01.067
+ * http://dx.doi.org/10.1051/epjconf/20135308015
  * http://dx.doi.org/10.1117/12.925305
  * http://dx.doi.org/10.1117/12.929229
+ * http://dx.doi.org/10.7529/ICRC2011/V03/0234
+ * http://dx.doi.org/10.1117/12.893089
  * https://arxiv.org/abs/1502.00792
  * http://inspirehep.net/record/1483867
  
